@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" href="images/favicon/leaf.png">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" 
+        rel="stylesheet">
+  <script src="js/script.js" defer></script>
+  <title>Pellets</title>
+</head>
+<body>
+  
+  <section class="sticky" >
+    <div class="container">
+
+      <nav class="sticky__inf">
+        <div><img class="sticky__logo" src="images/icons/logo.svg" 
+                  alt="logo" width="170" height="80">
+        </div>
+
+        <div class="sticky__tell">
+          <div class="sticky__phoneImg"><img src="images/icons/phone.png" alt="phone" width="50"
+               height="50"></div>
+          <div><a class="sticky__phone" href="tel:+380679743950">+380-679-743-950</a></div>
+        </div>
+
+        <div class="sticky__address">
+          <div class="sticky__addressImg"><img src="images/icons/pointNav.png" alt="point" width="50"
+               height="50"></div>
+          <p class="sticky__textAddress"><span>м. Київ, </span> <br> вул. Пушкінська, 9</p>
+        </div>
+
+        <div class="sticky__button">
+            <button class="sticky__btn">
+              <a class="sticky__btnText" href="#win1" >Замовити дзвінок</a>
+            </button>  
+      
+<!-- Модальное Окно №1 --> 
+      <div class="dm-overlay" id="win1">
+        <div class="dm-table">
+          <div class="dm-cell">
+            <div class="dm-modal">
+              <a href="#close" class="close"></a>
+              <h3> ТЕЛЕФОНУЙТЕ ЗАРАЗ <a href="tel:+380679743950">+380-679-743-950</a> АБО ЗАЛИШТЕ ЗАЯВКУ ТА МИ ВАМ ПЕРЕДЗВОНИМО:</h3>
+                        
+              <form action="#" method="get"  validate="">
+                <div>
+                  <input class="modal__tel" type="tel" value="+380" maxlength="12" minlength="12" placeholder="tel" name="tel" required />
+                </div>
+                <button class="modal__btn" type="submit">Залишити заявку</button>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </nav>
+    </div>
+  </section>
+
+  <header class="container">
+
+    <div class="header">
+
+      <div class="header__inf">
+          <h1 class="header__title"><span>ПАЛИВНІ ПЕЛЕТИ ОПТОМ </span> <br>від виробника в Україні</h1>
+            
+          <div class="header__add">
+            <p class="header__text">25 років на ринку</p>
+            <p class="header__text">Власне виробництво</p>
+            <p class="header__text">Точний обсяг</p>
+            <p class="header__text">Самовивіз або доставка за адресою</p>
+          </div>
+
+          <div class="header__tel">
+            <p class="header__phone">Дзвоніть за номером: <a href="tel:+380679743950"><span>+380-679-743-950</span> </a> <br> або залиште заявку, щоб отримати ціну або консультацію</p>
+          </div>
+
+          <button class="header__btn">
+            <a class="header__btnText" href="#win1" >Залишити заявку</a>
+          </button>  
+
+          <div class="dm-overlay" id="win1">
+            <div class="dm-table">
+                <div class="dm-cell">
+                    <div class="dm-modal">
+                        <a href="#close" class="close"></a>
+                        <h3> ЩОБ ОТРИМАТИ КРАЩУ ЦІНУ, ТЕЛЕФОНУЙТЕ ЗАРАЗ <a href="tel:+380679743950">+380-679-743-950</a>  АБО ЗАЛИШТЕ ЗАЯВКУ:</h3>
+                      
+                        <form action="#" method="get"  validate="">
+                          <div>
+                          <input class="modal__tel" type="tel" value="+380" maxlength="12" minlength="12" placeholder="tel" name="tel" required />
+                          </div>
+                          <button class="modal__btn" type="submit">Залишити заявку</button>
+                          
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <div><img class="header__img" src="images/icons/wood.png" alt="wood"></div>
+    </div>
+  </header>
+
+  <main class="container">
+ <div class="title">Каталог</div>
+    <div class="catalog">
+   
+
+    <div class="catalog__wrapper">
+      <h1 class="catalog__title">пеллети сірі</h1>
+      <div class="catalog__blok">
+        <img class="catalog__img" src="images/icons/pellet1.png" alt="pellet"
+             width="320" height="280">
+      </div>
+
+      <div class="catalog__price">
+        <div class="catalog__weight"> <span>Вага:</span> тонна</div>
+        <div class="catalog__value"><span>Ціна:</span> 6 900 грн</div>
+        <div class="catalog__valueNew"> 4 830 грн</div>
+      </div>
+
+      <div class="catalog__inf">
+        <p class="catalog__text">Склад: стружка з дошки смереки, ялини</p>
+        <p class="catalog__text">Ширина: 6мм</p>
+        <p class="catalog__text">Колір: сірий</p>
+        <p class="catalog__text">Домішки: без домішків кори та грунту</p>
+        <p class="catalog__text">Сіра: 0,06 %</p>
+        <p class="catalog__text">Загальна вологість: 9.85%</p>
+      </div>
+
+      <div class="catalog__button">
+        <label for="button">
+          <p id="button" class="catalog__btn section__button section__button1">Замовити</p>
+        </label>
+      </div>
+    </div>
+
+    <div class="catalog__wrapper">
+      <h1 class="catalog__title">пеллети чорні</h1>
+      <div class="catalog__blok">
+        <img class="catalog__img" src="images/icons/pellet2.png" alt="pellet"
+             width="320" height="280">
+      </div>
+
+      <div class="catalog__price">
+        <div class="catalog__weight"> <span>Вага:</span> тонна</div>
+        <div class="catalog__value"><span>Ціна:</span> 5 000 грн</div>
+        <div class="catalog__valueNew"> 3 500 грн</div>
+      </div>
+
+      <div class="catalog__inf">
+        <p class="catalog__text">Склад: стружка з лузги соняшника</p>
+        <p class="catalog__text">Ширина: 6мм</p>
+        <p class="catalog__text">Колір: чорний</p>
+        <p class="catalog__text">Домішки: без домішків кори та грунту</p>
+        <p class="catalog__text">Сіра: 0,06 %</p>
+        <p class="catalog__text">Загальна вологість: 9.85%</p>
+      </div>
+
+      <div class="catalog__button">
+        <label for="button">
+          <p id="button" class=" catalog__btn section__button section__button1">Замовити</p>
+        </label>
+      </div>
+    </div>
+
+    <div class="catalog__wrapper">
+      <h1 class="catalog__title">пеллети зелені</h1>
+      <div class="catalog__blok">
+        <img class="catalog__img" src="images/icons/pellet3.png" alt="pellet"
+             width="320" height="280">
+      </div>
+
+      <div class="catalog__price">
+        <div class="catalog__weight"> <span>Вага:</span> 3 кілограми</div>
+        <div class="catalog__value"><span>Ціна:</span> 500 грн</div>
+        <div class="catalog__valueNew"> 350 грн</div>
+      </div>
+
+      <div class="catalog__inf">
+        <p class="catalog__text">Склад: стружка з часнику</p>
+        <p class="catalog__text">Ширина: 6мм</p>
+        <p class="catalog__text">Колір: світо-зелений</p>
+        <p class="catalog__text">Домішки: без домішків кори та грунту</p>
+        <p class="catalog__text">Сіра: 0,06 %</p>
+        <p class="catalog__text">Загальна вологість: 9.85%</p>
+      </div>
+
+       <div class="catalog__button">
+        <label for="button">
+          <p id="button" class="catalog__btn section__button section__button1">Замовити</p>
+        </label>
+      </div>
+    </div>
+
+   
+
+  </main>
+  
+  <div class="modal modal1">
+    <div class="modal__main">
+      <h2 class="modal__title">Замовити зворотній дзвінок</h2>
+      
+      <div class="modal__container">
+        <form action="#" method="get">
+
+          <label for="name">
+            <div class="modal__text">Ваше ім'я
+            <input class="modal__input" id="name" type="text" name="name" placeholder="Введіть ваше ім'я" required>
+            </div>
+          </label>
+
+          <label for="tel">
+          <div class="modal__text">Ваш номер телефону
+          <input class="modal__input" id="tel" type="tel" name="tel" value="+380" placeholder="Введіть номер телефону" required>
+          </div>
+          </label>
+
+          <label for="comm">
+          <div class="modal__text">Ваш коментар
+          <textarea class="modal__input" id="comm" type="text" name="comment" placeholder="Введіть коментар"></textarea>
+          </div>
+          </label>
+
+          <div>
+          <button class="modal__button" type="submit">Передзвоніть мені</button>
+          </div>
+        </form>
+        <button class="modal__close">&#10006;</button>
+      </div>
+      
+    </div>
+  </div>
+  
+</body>
+</html>
